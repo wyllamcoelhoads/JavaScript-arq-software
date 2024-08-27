@@ -1,0 +1,9 @@
+pode ser declarado variaveis 
+
+com os seguintes nomes reservados, cada um atem uma caracteristica 
+
+var 
+let 
+
+quando compila o codigo js coloca todas as variaveis acima do codigo para serem levandadas porém todas 
+sem um tipo até que o seja definido no decorrer do codigo

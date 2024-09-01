@@ -1,29 +1,32 @@
-const valores = [5, 7.8, 6, 9, 10]
+const cartex = [
+    {
+        name : "Notebook",
+        price : 35025
+    },
+    {
+        name : "Fone de ouvido",
+        price : 355
+    },
+    {
+        name : "Teclado",
+        price : 325
+    },
+    {
+        name : "Telefone",
+        price : 3025
+    },
+    {
+        name : "Monitor",
+        price : 5025
+    },
+]
 
-console.log(valores)
-console.log(valores.indexOf)
-console.log("O tamanho do Array é: " +valores.length)
-console.log(valores[3])
-console.log(valores[10])
+//const jsonParse = json => JSON.parse(json)  
+const preco = product => product.
+const nome = product => product.name
 
-//Adiciona um elemento no fnal do Array
-valores.push(28)
-console.log(valores)
+const result = cartex.map(preco)
+console.log(result)
 
-
-//
-const aprovados = ['Um ', 'Dois','Tres', 'Quadro','Cinco', 'Seis','Sete', 'Oito']
-
-//Tradicional function
-aprovados.forEach(function(nome, i) 
-{
-    console.log()
-})
-
-//Arrow function
-aprovados.forEach((nome) => {
-    console.log(aprovados)
-})
-
-
-//Armazena uma função numa variavel
+const result1 = cartex.map(nome)
+console.log(result1)

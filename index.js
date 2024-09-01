@@ -4,6 +4,9 @@ var a = 'Olá mundo'
 let b = "outro valor"
 //b = 15
 
+// variavel que existe mais esta vazio 
+var vazio = null
+
 //console.log(a)
 //console.log(b)
 
@@ -12,6 +15,7 @@ var carro = {
     modelo: "Gol",
     ano: 2014
 }
+//templet scring
 //console.log("Marca do carro é " + carro.marca)
 //console.log("O ano dele é: " + carro.ano)
 //console.log("E o modelo é: " + carro.modelo)
@@ -34,3 +38,13 @@ console.log(total)
 console.log(typeof apenas2)
 console.log(typeof total)
 
+
+let nome = 'William '
+let idade = 26
+let cidade = 'Goiânia'
+let uf = 'GO'
+
+console.log('Olá, meu nome é '+nome+'Tenho ' +idade+ ' de idade e moro em ' +cidade + '-'+uf)
+
+console.log(nome.charAt(1))
+console.log(nome.indexOf('i'))
